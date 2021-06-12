@@ -1,0 +1,26 @@
+.home {
+    background-color: black;
+}
+
+.color-pickers {
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    top: 8.5rem;
+}
+
+#custom-theme1 {
+    left: 1rem;
+}
+
+#custom-theme2 {
+    left: 4.5rem;
+}
+
+#custom-theme3 {
+    left: 8rem;
+}
+
+#custom-theme4 {
+    left: 11.5rem;
+}

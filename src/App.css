@@ -1,0 +1,14 @@
+:root {
+  --background-color: #E7E7E7
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;  
+}
+
+body {
+  background-color: var(--background-color);
+}
+
