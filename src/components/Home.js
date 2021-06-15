@@ -29,6 +29,7 @@ class Home extends Component {
             document.getElementsByClassName('navlink')[1].style.color = e.target.value
             document.getElementsByClassName('navlink')[2].style.color = e.target.value
             document.getElementsByClassName('navlink')[3].style.color = e.target.value
+            document.getElementsByTagName('body')[0].style.color = e.target.value
         }
     }
 

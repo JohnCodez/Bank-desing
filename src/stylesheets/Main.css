@@ -8,3 +8,34 @@
     left: 24%;
 
 }
+
+li {
+    list-style: none;
+    height: 2rem;
+    /* width: 100%; */
+}
+
+hr {
+    position: relative;
+    right: 2%;
+    width: 100%;
+}
+
+.type {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 15%;
+}
+
+.date {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: 10%;
+}
+
+.price {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 48%;
+}
