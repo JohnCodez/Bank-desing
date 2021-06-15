@@ -6,7 +6,7 @@ const Main = () => {
             <h1>History</h1>
             <br/><br/>
             <ul>
-                <li><span className='type'>Type</span><span className='price'>Amount($)</span><span className='date'>Date(mdy)</span></li><hr style={{height: '2px', backgroundColor: 'black'}}/>
+                <li><span className='type'>Type</span><span className='price'>Amount($)</span><span className='date' style={{left: '84%'}}>Date(m/d/y)</span></li><hr style={{height: '2px', backgroundColor: 'black'}}/>
                 
                 <li><span className='type'>Deposit:</span><span className='price'> $100.67 </span><span className='date'>3/10/21</span></li><hr/>
                 <li><span className='type'>Withdraw:</span><span className='price'> $300.99 </span><span className='date'>4/14/21</span></li><hr/>
