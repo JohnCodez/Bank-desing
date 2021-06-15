@@ -19,6 +19,7 @@ class Home extends Component {
             this.setState({hColor1: e.target.value})
             document.getElementsByClassName('header')[0].style.background = `linear-gradient(0deg, ${e.target.value} 0%, ${this.state.hColor2} 150%)`
             document.getElementsByClassName('sidebar')[0].style.backgroundColor = e.target.value
+            document.getElementsByClassName('main-window')[0].style.backgroundColor = e.target.value
         } else if(number === 3){
             this.setState({hColor2: e.target.value})
             document.getElementsByClassName('header')[0].style.background = `linear-gradient(0deg, ${this.state.hColor1} 0%, ${e.target.value} 150%)`

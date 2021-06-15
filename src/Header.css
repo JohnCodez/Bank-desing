@@ -64,7 +64,7 @@
     position: absolute;
     width: 16%;
     left: 90%;
-    top: 30%;
+    top: 42%;
     font-size: 120%;
     transform: translate(-50%, -50%);
 }
@@ -72,8 +72,8 @@
 .account-picture {
     position: absolute;
     width: 16%;
-    top: 1%;
-    left: 1%;
+    top: -20%;
+    left: 80%;
 }
 
 #boxes {

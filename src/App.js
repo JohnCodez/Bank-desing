@@ -13,12 +13,6 @@ function App() {
   const [username, setUsername] = useState('John')
   let [colorVisible, setColorVisible] = useState('hidden')
   
-  //scales page according to window height
-  // document.body.style.zoom = `${window.innerHeight/1300*100}%`
-  // window.addEventListener('resize', () => {
-  //     document.body.style.zoom = `${window.innerHeight/1300*100}%`
-  // })
-
   const toggleColorVisible = () => {
     if (colorVisible === 'hidden'){
       setColorVisible(colorVisible = 'visible')
