@@ -10,19 +10,19 @@
 
 .bank-logo {
     position: absolute;
-    width: 4rem;
+    width: 3%;
     left: 0;
     margin-left: 1rem;
     margin-top: 2rem;
 }
 
-.welcome {
+.logo-title {
     position: absolute;
-    width: 1rem;
+    width: 1%;
     left: 0;
-    margin-left: 6rem;
-    margin-top: 2rem;
-    font-size: 1rem;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 75%;
 }
 
 .navlink {
@@ -30,68 +30,75 @@
     text-decoration: none;
     color: black;
     font-weight: 600;
-    width: 6rem;
-    height: 2rem;
-    margin-right: 1rem;
+    width: 6%;
+    height: 10%;
+    margin-right: 1%;
     z-index: 3;
 }
 
 #nav-home {
+    position: absolute;
     left: 16%;
-    top: 50%;
-    font-size: 1.6rem;
+    top: 45%;
+    font-size: 120%;
     transform: translate(-50%, -50%);
 }
 
 #nav-dashboard {
+    position: absolute;
     left: 29%;
-    top: 50%;
-    font-size: 1.6rem;
+    top: 45%;
+    font-size: 120%;
     transform: translate(-50%, -50%);
 }
 
 #nav-transactions {
+    position: absolute;
     left: 45%;
-    top: 50%;
-    font-size: 1.6rem;
+    top: 45%;
+    font-size: 120%;
     transform: translate(-50%, -50%);
 }
 
 #nav-account {
-    width: 16rem;
+    position: absolute;
+    width: 16%;
     left: 90%;
-    top: 35%;
-    font-size: 1.6rem;
+    top: 30%;
+    font-size: 120%;
     transform: translate(-50%, -50%);
 }
 
 .account-picture {
-    position: relative;
-    width: 3rem;
-    top: 1rem;
-    left: 1rem;
+    position: absolute;
+    width: 16%;
+    top: 1%;
+    left: 1%;
 }
 
 #boxes {
     position: absolute;
-    height: 6.6rem;
+    height: 70%;
     z-index: 2;
     background-color: #e7e7e7;
-    top: 1.5rem;
+    top: 30%;
     border: 1px solid rgb(82, 82, 82);
     border-bottom: 0;
     border-radius: 15px 15px 0 0;
 }
 
 .nav-home-box {
-    width: 8rem;
-    left: 23.5rem;
+    position: absolute;
+    width: 8%;
+    left: 12%;
 }
 .nav-dashboard-box {
-    width: 10rem;
-    left: 45.8rem;
+    position: absolute;
+    width: 10%;
+    left: 24%;
 }
 .nav-transactions-box {
-    width: 11rem;
-    left: 73.3rem;
+    position: absolute;
+    width: 11%;
+    left: 39.7%;
 }

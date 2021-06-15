@@ -17,7 +17,7 @@ function Header(props) {
         <div className='header'>
             <div className='whole-logo' onClick={props.toggleColorVisible} style={{cursor: 'pointer'}}>
                 <img className='bank-logo' src={bankLogo} alt='bank'></img>
-                <h1 className='welcome'>The Greatest Bank</h1>
+                <h1 className='logo-title'>The Greatest Bank</h1>
             </div>
             <BrowserRouter>
                 <NavLink onClick={() => handleClick('nav-home-box')} className='navlink' id='nav-home' exact to='/' >Home</NavLink>
